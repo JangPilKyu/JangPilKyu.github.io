@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html>
-<style>
+  <style>
         table, th, td {
           border:1px solid black;
-        }
-</style>
+          border-collapse: collapse;
+}
+        tr:nth-child(odd) {
+        background-color: rgb(204, 204, 204);
+}
+        th {
+          border-style:1px solid;
+          border-color:black white black black;
+          text-align: center;
+          background-color: rgb(0, 0, 0);
+          border-collapse: separate;
+}
+  </style>
 <head>
 </head>
 <body>
@@ -12,30 +23,46 @@
 <h1>20230879-컴퓨터공학과-장필규 , 2주차 과제-2</h1>
 <table style="width:70%">
   <tr>
-    <td>Emil</td>
-    <td>Tobias</td>
-    <td>Linus</td>
+    <th style="color:white">국가</th>
+    <th style="color:white">1인당 GDP(달러)</th>
   </tr>
   <tr>
-    <td>16</td>
-    <td>14</td>
-    <td>10</td>
+    <td>룩셈부르크</td>
+    <td>131,300</td>
   </tr>
   <tr>
-    <td>16</td>
-    <td>14</td>
-    <td>10</td>
+    <td>아일랜드</td>
+    <td>102,390</td>
   </tr>
   <tr>
-    <td>16</td>
-    <td>14</td>
-    <td>10</td>
+    <td>스위스</td>
+    <td>93,515</td>
   </tr>
   <tr>
-    <td>16</td>
-    <td>14</td>
-    <td>10</td>
+    <td>노르웨이</td>
+    <td>82,244</td>
+  </tr>  
+  <tr>
+    <td>미국</td>
+    <td>69,375</td>
+  </tr>  
+  <tr>
+    <td>아이슬란드</td>
+    <td>68,843</td>
+  </tr>
+  <tr>
+    <td>덴마크</td>
+    <td>67,919</td>
+  </tr>
+  <tr>
+    <td>싱가포르</td>
+    <td>66,263</td>
+  </tr>
+  <tr>
+    <td>오스트레일리아</td>
+    <td>62,618</td>
   </tr>
 </table>
- </body>
+  <p><i><b>출처 : 위키피디아</b></i></p>
+</body>
 </html>
